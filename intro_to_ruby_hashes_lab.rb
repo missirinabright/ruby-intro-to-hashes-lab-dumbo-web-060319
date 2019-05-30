@@ -1,19 +1,26 @@
 def new_hash
-
+  new_hash_var = {} 
+      #creates an empty hash and returns it
 end
 
 def actor
-
+actor = {:name => "Dwayne The Rock Johnson"}
+      #creates a hash named actor whose key is a symbol :name and whose value isa string, 'Dwayne The Rock Johnson'
 end
 
 def monopoly
-	monopoly = {}
-
+	monopoly = {
+	  :railroads => {}
+	}
+	#adds a key-value pair to the monopoly hash. The key should be :railroads and the value should be an empty hash
 end
 
 def monopoly_with_second_tier
+  monopoly = {
+    :railroads => {:pieces => 4,:names => {}, :rent_in_dollars => {}
+    }
+  }
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
 end
 
 def monopoly_with_third_tier
